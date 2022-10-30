@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "header": {
+    "uuid": "8f126d1f-c78b-401e-9c43-1660b4a32f9d",
+    "name": "Koi Behavior Pack",
+    "version": [ 0, 0, 1 ],
+    "description": "♥From TikTok to your game, enjoy a few koi!♥ Made by: MWCubed"
+  },
+  "modules": [
+    {
+      "description": "Not Used",
+      "version": [ 0, 0, 1 ],
+      "uuid": "6c98fbeb-e998-4712-bd84-04cd114b0257",
+      "type": "data"
+    }
+  ],
+    "dependencies": [
+        {
+            "uuid": "f909277c-493f-4b18-8dc5-ebc33501d3d6",
+            "version": [0, 0, 1]
+        }
+    ]
+}

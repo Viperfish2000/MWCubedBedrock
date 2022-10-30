@@ -1,0 +1,111 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.walter.angry" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "walter_angry" ]
+				}
+			}
+		},
+		"controller.animation.walter.baby_scaling" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "walter_baby_scaling" ],
+					"transitions" : [
+						{
+							"default" : "query.is_baby"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.walter.head_rot_z" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{
+							"rot" : "query.is_interested || query.is_shaking_wetness"
+						}
+					]
+				},
+				"rot" : {
+					"animations" : [ "walter_head_rot_z" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_interested && !query.is_shaking_wetness"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.walter.look_at" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "walter_look_at" ]
+				}
+			}
+		},
+		"controller.animation.walter.setup" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "walter_setup" ]
+				}
+			}
+		},
+		"controller.animation.walter.shaking" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{
+							"shaking" : "query.is_shaking_wetness"
+						}
+					]
+				},
+				"shaking" : {
+					"animations" : [ "walter_shaking" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_shaking_wetness"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.walter.sitting" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "walter_leg_default" ],
+					"transitions" : [
+						{
+							"sitting" : "query.is_sitting"
+						}
+					]
+				},
+				"sitting" : {
+					"animations" : [ "walter_sitting" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_sitting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.walter.tail_default" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "walter_tail_default" ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+entity.vscomod:hedgehog.name=Hedgehog
+item.spawn_egg.entity.vscomod:hedgehog.name=Hedgehog
+
+entity.vscomod:shark.name=Shark
+item.spawn_egg.entity.vscomod:shark.name=Shark
+
+entity.vscomod:butterfly.name=Monarch
+item.spawn_egg.entity.vscomod:buttefly.name=Butterfly
+
+entity.vscomod:fly.name=Butterfly
+item.spawn_egg.entity.vscomod:fly.name=Butterfly
+
+entity.vscomod:koi.name=Koi
+item.spawn_egg.entity.vscomod:koi.name=Koi

@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "Ender Creepers! Both resource and behavior packs must be enabled. Made by: MWCubed",
+    "name": "Ender Creeper Resources",
+    "uuid": "db19dd67-95a9-46ac-ae9c-cfa124ca9667",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "Ender Creepers! Both resource and behavior packs must be enabled. Made by: MWCubed",
+      "type": "resources",
+      "uuid": "cdbe2004-0fec-4f3e-8bdc-a54addfd7e81",
+      "version": [0, 0, 1]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "vscomod:redpanda",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "red": "textures/entity/red_panda"
+      },
+      "geometry": {
+        "default": "geometry.redpanda"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.fox.baby_transform",
+        "crouch": "animation.fox.crouch",
+        "sleep": "animation.redpanda.sleep",
+        "sit": "animation.redpanda.sit",
+        "wiggle": "animation.fox.wiggle",
+        "stuck": "animation.fox.stuck",
+        "pounce": "animation.fox.pounce",
+        "move": "controller.animation.fox.move"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          { "baby_transform": "query.is_baby" },
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.fox" ],
+       "spawn_egg": {
+	 "overlay_color": "#2a2a3d",
+          "base_color": "#ac5d24"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "header": {
+    "uuid": "c6608563-a8d7-4465-94bd-73a5ea899c87",
+    "name": "Butterflies Behavior Pack",
+    "version": [ 0, 0, 1 ],
+    "description": "♥From TikTok to your game, enjoy a few butterflies!♥ Made by: MWCubed"
+  },
+  "modules": [
+    {
+      "description": "Not Used",
+      "version": [ 0, 0, 1 ],
+      "uuid": "bc9dc881-f863-4fe0-ba30-f4a5bbb5f2ed",
+      "type": "data"
+    }
+  ],
+    "dependencies": [
+        {
+            "uuid": "aa6fb3bb-26b9-40eb-9c00-48cf0275eaa7",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+
+  "entity_sounds": {
+    "entities": {
+ "walter": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.walter.bark",
+          "hurt": "mob.walter.hurt",
+          "death": "mob.walter.death",
+          "step": {
+            "sound": "mob.walter.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "shake": {
+            "sound": "mob.walter.shake",
+            "pitch": [ 0.8, 1.2 ]
+          },
+          "growl": "mob.walter.growl",
+          "whine": "mob.walter.whine",
+          "pant": "mob.walter.panting"
+        }
+      },
+      "dog": {
+        "volume": 1.0,
+        "pitch": [ 1.0, 1.0 ],
+        "events": {
+          "hurt": "mob.hedgehog.hurt",
+          "death": "mob.hedgehog.death",
+          "wimper": "mob.hedgehog.wimper"
+        }
+      }
+    }
+  }
+}

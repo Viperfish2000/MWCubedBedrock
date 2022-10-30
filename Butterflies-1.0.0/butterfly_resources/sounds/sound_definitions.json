@@ -1,0 +1,21 @@
+{
+ 
+  "mob.hedgehog.death": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/hedgehog/death"
+    ]
+  },
+  "mob.hedgehog.hurt": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/hedgehog/hurt"
+    ]
+  },
+  "mob.hedgehog.wimper": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/hedgehog/wimper"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "♥WALTER DOG WALTER DOG♥ Made by: MWCubed",
+    "name": "Walter Resources",
+    "uuid": "e6515b9f-5f52-4d9a-a0c3-015a080a9179",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "♥WALTER DOG WALTER DOG♥ Made by: MWCubed",
+      "type": "resources",
+      "uuid": "c6a33c65-45a5-4885-bd61-d97d00639fb7",
+      "version": [0, 0, 1]
+    }
+  ]
+}

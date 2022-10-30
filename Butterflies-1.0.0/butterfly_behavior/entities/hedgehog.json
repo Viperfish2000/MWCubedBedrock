@@ -1,0 +1,265 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "vscomod:hedgehog",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "minecraft:hedgehog_baby": {
+        "minecraft:is_baby": {
+        },
+        "minecraft:scale": {
+          "value": 0.5
+        },
+
+        "minecraft:ageable": {
+          "duration": 1200,
+          "feedItems": [
+            "sweet_berries"
+          ],
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        }
+      },
+
+      "minecraft:hedgehog_adult": {
+        "minecraft:loot": {
+          "table": "loot_tables/entities/hedgehog.json"
+        },
+        "minecraft:breedable": {
+          "requireTame": true,
+          "breedsWith": {
+            "mateType": "vscomod:hedgehog",
+            "babyType": "vscomod:hedgehog",
+            "breed_event": {
+              "event": "minecraft:entity_born",
+              "target": "baby"
+            }
+          },
+          "breedItems": [
+            "sweet_berries"
+          ]
+        }
+      },
+
+
+      "vscomod:hedgehog_wild": {
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 3,
+          "entity_types": [
+            {
+              "filters": { "test": "is_family", "subject": "other", "value": "llama" },
+              "max_dist": 24,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.5
+            }
+          ],
+          "probability_per_strength": 0.14
+        },
+        "minecraft:tameable": {
+          "probability": 0.33,
+          "tameItems": "sweet_berries",
+          "tame_event": {
+            "event": "minecraft:on_tame",
+            "target": "self"
+          }
+        },
+
+       
+
+      "vscomod:hedgehog_tame": {
+        "minecraft:is_tamed": {
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+      
+        "minecraft:behavior.follow_owner": {
+          "priority": 6,
+          "speed_multiplier": 1.0,
+          "start_distance": 10,
+          "stop_distance": 2
+        },
+     
+        "minecraft:behavior.breed": {
+          "priority": 1
+        },
+
+        
+
+        "minecraft:sittable": {
+        },
+        
+
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0,
+          "on_leash": {
+            "event": "minecraft:on_leash",
+            "target": "self"
+          },
+          "on_unleash": {
+            "event": "minecraft:on_unleash",
+            "target": "self"
+          }
+        }
+      }
+    },
+
+
+    "components": {
+      "minecraft:nameable": {
+      },
+      "minecraft:type_family": {
+        "family": [ "hedgehog" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.3,
+        "height": 0.3
+      },
+      "minecraft:health": {
+        "value": 5,
+        "max": 5
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      
+      "minecraft:healable": {
+        "items": [
+          {
+            "item": "sweet_berries",
+            "heal_amount": 3
+          }
+        ]
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 1,
+        "speed_multiplier": 1.25,
+        "target_dist": 0,
+        "track_target": true
+      },
+      "minecraft:behavior.stay_while_sitting": {
+        "priority": 2
+      },
+   
+      "minecraft:behavior.random_stroll": {
+        "priority": 4,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 3,
+        "target_distance": 6.0,
+        "probability": 0.02
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "vscomod:hedgehog_adult",
+                "vscomod:hedgehog_wild"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "vscomod:hedgehog_baby",
+                "vscomod:hedgehog_wild"
+              ]
+
+            }
+          }
+        ]
+      },
+
+      "minecraft:entity_born": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "vscomod:hedgehog_baby",
+            "vscomod:hedgehog_tame"
+          ]
+        }
+      },
+
+      "minecraft:ageable_grow_up": {
+        "remove": {
+          "component_groups": [
+            "vscomod:hedgehog_baby"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "vscomod:hedgehog_adult"
+          ]
+        }
+      },
+
+      "minecraft:ageable_set_baby": {
+        "remove": {
+          "component_groups": [
+            "vscomod:hedgehog_adult"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "vscomod:hedgehog_baby"
+          ]
+        }
+      },
+
+      "minecraft:on_tame": {
+        "remove": {
+          "component_groups": [
+            "vscomod:hedgehog_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "vscomod:hedgehog_tame"
+          ]
+        }
+      }
+    }
+  }
+}

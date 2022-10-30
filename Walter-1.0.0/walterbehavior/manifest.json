@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "header": {
+    "uuid": "92ffd662-d2cc-48ca-96be-d7323a400fe5",
+    "name": "Walter Behavior Pack",
+    "version": [ 0, 0, 1 ],
+    "description": "♥WALTER DOG WALTER DOG♥ Made by: MWCubed"
+  },
+  "modules": [
+    {
+      "description": "Not Used",
+      "version": [ 0, 0, 1 ],
+      "uuid": "4e255e1b-f219-49a9-a81a-8be9f9da53b1",
+      "type": "data"
+    }
+  ],
+    "dependencies": [
+        {
+            "uuid": "e6515b9f-5f52-4d9a-a0c3-015a080a9179",
+            "version": [0, 0, 1]
+        }
+    ]
+}

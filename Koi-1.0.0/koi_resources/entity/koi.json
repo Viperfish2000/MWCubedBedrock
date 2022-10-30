@@ -1,0 +1,43 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "vscomod:koi",
+      "materials": { 
+        "default": "entity_alphatest"},
+      "textures": {  
+         "asagi": "textures/entity/koi/asagi",
+        "benigoi": "textures/entity/koi/benigoi",
+        "doitsu": "textures/entity/koi/doitsu",
+        "hajiro": "textures/entity/koi/hajiro",
+	"kohaku": "textures/entity/koi/kohaku",
+	"tancho": "textures/entity/koi/tancho",
+	"yamabuki_ogon": "textures/entity/koi/yamabuki_ogon",
+        "hikari": "textures/entity/koi/hikari"
+      },
+      "geometry": {
+        "default": "geometry.koi"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.ZRot = !query.is_in_water ? Math.cos((query.time_stamp + query.frame_alpha) * 14.32) * 90 : 0.0;",
+          "variable.AnimationAmountBlend = Math.lerp(variable.AnimationAmountPrev, variable.AnimationAmount, query.frame_alpha);"
+        ]
+      },
+      "animations": {
+        "flop": "animation.koi.flop",
+        "swim": "animation.koi.swim"
+      },
+      "animation_controllers": [
+        {
+          "general": "controller.animation.koi.general"
+        }
+      ],
+      "render_controllers": [ "controller.render.koi" ],
+      "spawn_egg": {
+	 "overlay_color": "#ff4d00",
+          "base_color": "#ffffff"
+      }
+    }
+  }
+}

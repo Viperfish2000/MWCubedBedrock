@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "vscomod:momo",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/momo"
+			},
+			"geometry": {
+				"default": "geometry.momo"
+			},
+
+			"animations": {
+				"moving": "animation.momo.moving",
+				"base": "animation.momo.base",
+				"sitting": "animation.momo.sitting",
+				"flying": "animation.momo.flying",
+				"standing": "animation.momo.standing",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [{
+					"setup": "controller.animation.momo.setup"
+				},
+				{
+					"sitting": "controller.animation.momo.sitting"
+				},
+				{
+					"baby_scaling": "controller.animation.momo.baby_scaling"
+				}
+			],
+			"render_controllers": ["controller.render.momo"],
+			"spawn_egg": {
+				"overlay_color": "#fff0f1",
+				"base_color": "#524e42"
+			}
+		}
+	}
+}

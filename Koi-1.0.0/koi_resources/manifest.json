@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "♥From TikTok to your game, enjoy a few koi!♥ Made by: MWCubed",
+    "name": "Koi Resources",
+    "uuid": "f909277c-493f-4b18-8dc5-ebc33501d3d6",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "♥From TikTok to your game, enjoy a few koi!♥ Made by: MWCubed",
+      "type": "resources",
+      "uuid": "8903b4ec-0fb7-4f08-b9ca-dd640f1260c6",
+      "version": [0, 0, 1]
+    }
+  ]
+}

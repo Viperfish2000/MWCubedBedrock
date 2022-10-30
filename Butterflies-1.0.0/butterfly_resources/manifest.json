@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "♥From TikTok to your game, enjoy a few butterflies!♥ Made by: MWCubed",
+    "name": "Butterflies Resource Pack",
+    "uuid": "aa6fb3bb-26b9-40eb-9c00-48cf0275eaa7",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "♥From TikTok to your game, enjoy a few butterflies!♥ Made by: MWCubed",
+      "type": "resources",
+      "uuid": "2e9c288f-17d5-47ee-839d-9f3b44493ed2",
+      "version": [0, 0, 1]
+    }
+  ]
+}

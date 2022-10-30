@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "header": {
+    "uuid": "8abf07ff-2d4f-4d97-9f4f-6922fa3e3c3d",
+    "name": "Red Panda Behavior Pack",
+    "version": [ 0, 0, 1 ],
+    "description": "♥Cute Red Pandas!♥ Both resource and behavior packs must be enabled. Made by: MWCubed"
+  },
+  "modules": [
+    {
+      "description": "Not Used",
+      "version": [ 0, 0, 1 ],
+      "uuid": "04d92d55-7a6e-4fa6-b685-e68564aa5748",
+      "type": "data"
+    }
+  ],
+    "dependencies": [
+        {
+            "uuid": "87b8695b-39ef-4c2b-8d1f-e09148d3bab9",
+            "version": [0, 0, 1]
+        }
+    ]
+}

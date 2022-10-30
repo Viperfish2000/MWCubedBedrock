@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "New Elytra model and texture based off of the ATLA universe! Subcribe to our YouTube MWCubed",
+    "name": "Avatar Glider Pack",
+    "uuid": "a1fc7c3f-a193-4569-8645-28f392bb7f9c",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "New Elytra model and texture based off of the ATLA universe! Subcribe to our YouTube MWCubed",
+      "type": "resources",
+      "uuid": "bb3acc27-c55f-469c-8014-7d002e1ad724",
+      "version": [0, 0, 1]
+    }
+  ]
+}

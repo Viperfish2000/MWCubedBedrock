@@ -1,0 +1,18 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.butterfly.flying" : {
+			"loop" : true,
+			"bones" : {
+				"leftwing_bone" : {
+					"position" : [ "-this", "-this", "-this" ],
+					"rotation" : [ 0.0, 0.0, "math.cos(query.life_time * 1489.6) * -45.0" ]
+				},
+				"rightwing_bone" : {
+					"position" : [ "-this", "-this", "-this" ],
+					"rotation" : [ 0.0, 0.0 , "math.cos(query.life_time * 1489.6) * 45.0" ]
+				}
+			}
+		}
+	}
+}

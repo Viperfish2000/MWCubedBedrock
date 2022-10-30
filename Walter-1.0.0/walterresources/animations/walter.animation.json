@@ -1,0 +1,97 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+	"animation.walter.angry" : {
+			"loop" : true,
+			"bones" : {
+				"tail" : {
+					"rotation" : [ 0.0, "query.is_angry ? -this : (math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed * 80.22 - this)", 0.0 ]
+				}
+			}
+		},
+		"animation.walter.baby_scaling" : {
+			"loop" : true,
+			"bones" : {
+				"upperBody" : {
+					"position" : [ 0.0, 1.0, -2.0 ],
+					"scale" : 1.6
+				}
+			}
+		},
+		"animation.walter.head_rot_z" : {
+			"loop" : true,
+			"bones" : {
+				"upperBody" : {
+					"rotation" : [ 0.0, 0.0, "(query.is_interested ? (query.head_roll_angle * 57.3) : 0) + (query.is_shaking_wetness ? variable.head_rot_z : 0) - this" ]
+				}
+			}
+		},
+		"animation.walter.leg_default" : {
+			"loop" : true,
+			"bones" : {
+				"leg4" : {
+					"rotation" : [ "math.cos(query.modified_distance_moved * 38.17) * 80.22 * query.modified_move_speed - this", 0.0, 0.0 ]
+				},
+				"leg1" : {
+					"rotation" : [ "math.cos(query.modified_distance_moved * 38.17 + 180) * 80.22 * query.modified_move_speed - this", 0.0, 0.0 ]
+				},
+				"leg2" : {
+					"rotation" : [ "math.cos(query.modified_distance_moved * 38.17 + 180) * 80.22 * query.modified_move_speed - this", 0.0, 0.0 ]
+				},
+				"leg3" : {
+					"rotation" : [ "math.cos(query.modified_distance_moved * 38.17) * 80.22 * query.modified_move_speed - this", 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.walter.shaking" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"rotation" : [ 0.0, 0.0, "variable.body_rot_z - this" ]
+				},
+				"upperbody" : {
+					"rotation" : [ 0.0, 0.0, "variable.upper_body_rot_z - this" ]
+				}
+			}
+		},
+		"animation.walter.sitting": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-35, 0, 0]
+				},
+				"tail": {
+					"rotation": [20, 0, 0]
+				},
+				"leg4": {
+					"rotation": [-55, 0, 0]
+				},
+				"leg1": {
+					"rotation": [-55, 0, 0]
+				},
+				"leg2": {
+					"rotation": [-30, 0, 0]
+				},
+				"leg3": {
+					"rotation": [-30, 0, 0]
+				}
+			}
+		},
+		"animation.walter.setup": {
+			"loop": true,
+			"bones": {
+				"tail": {
+					"rotation": [-55, 0, 0]
+				}
+			}
+		},
+		"animation.walter.tail_default" : {
+			"loop" : true,
+			"bones" : {
+				"tail" : {
+					"rotation" : [ "query.tail_angle * 180 - this", 0.0, "variable.tail_rot_z - this" ]
+				}
+			}
+		}
+	}
+}

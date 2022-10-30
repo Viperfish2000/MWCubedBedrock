@@ -1,0 +1,42 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "vscomod:fly",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+     "textures": {
+         "blue": "textures/entity/butterfly/cabbage",
+        "green": "textures/entity/butterfly/monarch",
+        "red_blue": "textures/entity/butterfly/morpho",
+        "yellow_blue": "textures/entity/butterfly/swallowtail",
+        "grey": "textures/entity/butterfly/monarch"
+      },
+      "geometry": {
+        "default": "geometry.butterfly"
+		
+      },
+	  "scripts": {
+      },
+      "animations": {
+        "flying": "animation.butterfly.flying"
+
+      },
+        
+         "animation_controllers":[
+            
+              
+        { "move": "controller.animation.butterfly.move" }
+            
+         ],
+	
+      "render_controllers": [ "controller.render.fly"
+	  ],
+	  "spawn_egg":{
+	  "overlay_color": "#ff7c",
+          "base_color": "#1df"
+	  }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "format_version" : "1.14.0",
+  "sound_definitions" : {
+
+    "mob.walter.death": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/wolf/death"
+      ]
+    },
+    "mob.walter.growl": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/wolf/growl1",
+        "sounds/mob/wolf/growl2",
+        "sounds/mob/wolf/growl3"
+      ]
+    },
+    "mob.walter.hurt": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/wolf/hurt1",
+        "sounds/mob/wolf/hurt2",
+        "sounds/mob/wolf/hurt3"
+      ]
+    },
+    "mob.walter.panting": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/wolf/panting"
+      ]
+    },
+    "mob.walter.shake": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/wolf/shake"
+      ]
+    },
+    "mob.walter.step": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/wolf/step1",
+        "sounds/mob/wolf/step2",
+        "sounds/mob/wolf/step3",
+        "sounds/mob/wolf/step4",
+        "sounds/mob/wolf/step5"
+      ]
+    },
+    "mob.walter.whine": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/wolf/whine"
+      ]
+    }
+  }
+}

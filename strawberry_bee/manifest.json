@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "Cute strawberry retexture for Minecraft bees! YT and TikTok MWCubed",
+    "name": "Strawberry Bee Pack",
+    "uuid": "ec9403cd-5d7c-46af-b3f8-a175fe762fca",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "Cute strawberry retexture for Minecraft bees! YT and TikTok MWCubed",
+      "type": "resources",
+      "uuid": "ab871f60-fc12-457c-abcb-08ba96ba654b",
+      "version": [0, 0, 1]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "♥Cute Red Pandas! Made by: MWCubed",
+    "name": "Red Panda Resources",
+    "uuid": "87b8695b-39ef-4c2b-8d1f-e09148d3bab9",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "♥Cute Red Pandas!♥ Made by: MWCubed",
+      "type": "resources",
+      "uuid": "ce3a98e6-f36f-415c-abdd-90673dad5c86",
+      "version": [0, 0, 1]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+	"format_version" : "1.8.0",
+	"animations": {
+		"animation.elytra.default": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [0, 0, -25],
+					"position": [0, 3, -1.25],
+					"scale": [0.7, 0.6, 1]
+				},
+				"wingr": {
+					"scale": [0.01, 0.01, 0]
+				},
+				"wingl": {
+					"scale": [0.01, 0.01, 1]
+				},
+				"winglb": {
+					"scale": [0.01, 0.01, 1]
+				},
+				"winglr": {
+					"scale": [0.01, 0.01, 1]
+				},
+				"bone3": {
+					"rotation": [0, 0, -95]
+				},
+				"bone4": {
+					"rotation": [0, 0, -98]
+				},
+				"bone5": {
+					"rotation": [0, 0, 90]
+				},
+				"bone6": {
+					"rotation": [0, 0, 95]
+				},
+				"bone7": {
+					"rotation": [0, 0, 90]
+				},
+				"bone8": {
+					"rotation": [0, 0, -91]
+				},
+				"bone9": {
+					"rotation": [0, 0, -93]
+				},
+				"bone10": {
+					"rotation": [0, 0, -90]
+				},
+				"bone11": {
+					"rotation": [0, 0, 93]
+				},
+				"bone12": {
+					"rotation": [0, 0, 91]
+				},
+				"bone13": {
+					"rotation": [0, 0, 90]
+				},
+				"bone14": {
+					"rotation": [0, 0, -90]
+				},
+				"bone15": {
+					"position": [0, 7, -0.5],
+					"scale": [1, 1.2, 1.5]
+				}
+			}
+		},
+		"animation.elytra.gliding": {
+			"loop": true,
+		"bones": {
+				"bone": {
+					"rotation": [-12, 0, 0],
+					"position": [0, -3, 3]
+				},
+				"bone10": {
+					"rotation": [0, 0, -15]
+				},
+				"wingr": {
+					"rotation": [0, 0, -15]
+				},
+				"bone14": {
+					"rotation": [0, 0, -5]
+				},
+				"winglr": {
+					"rotation": [0, 0, -5]
+				},
+				"bone3": {
+					"rotation": [0, 0, -30]
+				},
+				"bone4": {
+					"rotation": [0, 0, -65]
+				},
+				"bone9": {
+					"rotation": [0, 0, -70]
+				},
+				"bone8": {
+					"rotation": [0, 0, -45]
+				},
+				"bone13": {
+					"rotation": [0, 0, 15]
+				},
+				"wingl": {
+					"rotation": [0, 0, 15]
+				},
+				"bone7": {
+					"rotation": [0, 0, 5]
+				},
+				"winglb": {
+					"rotation": [0, 0, 5]
+				},
+				"bone6": {
+					"rotation": [0, 0, 30]
+				},
+				"bone5": {
+					"rotation": [0, 0, 60]
+				},
+				"bone11": {
+					"rotation": [0, 0, 70]
+				},
+				"bone12": {
+					"rotation": [0, 0, 45]
+				},
+				"RightArm": {
+					"rotation": [110, -25, 0],
+					"position": [0, 0, 2]
+				},
+				"LeftArm": {
+					"rotation": [110, 25, 0],
+					"position": [0, 0, 2]
+				},
+				"Head": {
+					"rotation": [-50, 0, 0]
+				}
+			}
+		},
+		"animation.elytra.sneaking": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [30, 0, 0],
+					"position": [0, -3, 3]
+				},
+				"bone10": {
+					"rotation": [0, 0, -15]
+				},
+				"wingr": {
+					"rotation": [0, 0, -15]
+				},
+				"bone14": {
+					"rotation": [0, 0, -5]
+				},
+				"winglr": {
+					"rotation": [0, 0, -5]
+				},
+				"bone3": {
+					"rotation": [0, 0, -30]
+				},
+				"bone4": {
+					"rotation": [0, 0, -65]
+				},
+				"bone9": {
+					"rotation": [0, 0, -70]
+				},
+				"bone8": {
+					"rotation": [0, 0, -45]
+				},
+				"bone13": {
+					"rotation": [0, 0, 15]
+				},
+				"wingl": {
+					"rotation": [0, 0, 15]
+				},
+				"bone7": {
+					"rotation": [0, 0, 5]
+				},
+				"winglb": {
+					"rotation": [0, 0, 5]
+				},
+				"bone6": {
+					"rotation": [0, 0, 30]
+				},
+				"bone5": {
+					"rotation": [0, 0, 60]
+				},
+				"bone11": {
+					"rotation": [0, 0, 70]
+				},
+				"bone12": {
+					"rotation": [0, 0, 45]
+				},
+				"RightArm": {
+					"rotation": [110, -25, 0],
+					"position": [0, 0, 2]
+				},
+				"LeftArm": {
+					"rotation": [110, 25, 0],
+					"position": [0, 0, 2]
+				},
+				"Head": {
+					"rotation": [-50, 0, 0]
+				}
+			}
+		},
+		"animation.elytra.sleeping": {
+			"loop": true,
+		"bones": {
+				"bone": {
+					"rotation": [-180, 0, 0],
+						"scale": [0, 0, 0],
+					"position": [0, -3, 3]
+				},
+				"bone10": {
+					"rotation": [0, 0, -15]
+				},
+				"wingr": {
+					"rotation": [0, 0, -15]
+				},
+				"bone14": {
+					"rotation": [0, 0, -5]
+				},
+				"winglr": {
+					"rotation": [0, 0, -5]
+				},
+				"bone3": {
+					"rotation": [0, 0, -30]
+				},
+				"bone4": {
+					"rotation": [0, 0, -65]
+				},
+				"bone9": {
+					"rotation": [0, 0, -70]
+				},
+				"bone8": {
+					"rotation": [0, 0, -45]
+				},
+				"bone13": {
+					"rotation": [0, 0, 15]
+				},
+				"wingl": {
+					"rotation": [0, 0, 15]
+				},
+				"bone7": {
+					"rotation": [0, 0, 5]
+				},
+				"winglb": {
+					"rotation": [0, 0, 5]
+				},
+				"bone6": {
+					"rotation": [0, 0, 30]
+				},
+				"bone5": {
+					"rotation": [0, 0, 60]
+				},
+				"bone11": {
+					"rotation": [0, 0, 70]
+				},
+				"bone12": {
+					"rotation": [0, 0, 45]
+				},
+				"RightArm": {
+					"rotation": [110, -25, 0],
+					"position": [0, 0, 2]
+				},
+				"LeftArm": {
+					"rotation": [110, 25, 0],
+					"position": [0, 0, 2]
+				},
+				"Head": {
+					"rotation": [-50, 0, 0]
+				}
+			}
+		},
+		"animation.elytra.swimming": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": ["query.swim_amount * 90", 0, -25],
+					"position": [0, -10, 10],
+					"scale": [0.4, 0.4, 1]
+				},
+				"wingr": {
+					"scale": [0.01, 0.01, 0]
+				},
+				"wingl": {
+					"scale": [0.01, 0.01, 1]
+				},
+				"winglb": {
+					"scale": [0.01, 0.01, 1]
+				},
+				"winglr": {
+					"scale": [0.01, 0.01, 1]
+				},
+				"bone3": {
+					"rotation": [0, 0, -95]
+				},
+				"bone4": {
+					"rotation": [0, 0, -98]
+				},
+				"bone5": {
+					"rotation": [0, 0, 90]
+				},
+				"bone6": {
+					"rotation": [0, 0, 95]
+				},
+				"bone7": {
+					"rotation": [0, 0, 90]
+				},
+				"bone8": {
+					"rotation": [0, 0, -91]
+				},
+				"bone9": {
+					"rotation": [0, 0, -93]
+				},
+				"bone10": {
+					"rotation": [0, 0, -90]
+				},
+				"bone11": {
+					"rotation": [0, 0, 93]
+				},
+				"bone12": {
+					"rotation": [0, 0, 91]
+				},
+				"bone13": {
+					"rotation": [0, 0, 90]
+				},
+				"bone14": {
+					"rotation": [0, 0, -90]
+				},
+				"bone15": {
+					"position": [0, 7, -0.5],
+					"scale": [1, 1.2, 1.5]
+				}
+			}
+		}
+	}
+}

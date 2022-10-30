@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.koi": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ "Texture.asagi", "Texture.benigoi", "Texture.doitsu", "Texture.hajiro", "Texture.kohaku", "Texture.tancho", "Texture.yamabuki_ogon", "Texture.hikari" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

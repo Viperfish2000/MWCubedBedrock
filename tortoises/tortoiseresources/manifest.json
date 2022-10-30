@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "♥Cute Tortoises! Made by: MWCubed",
+    "name": "Tortoise Resources",
+    "uuid": "05072c36-a450-4a4d-8b76-9fcbfc082004",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "♥Cute Tortoises!♥ Made by: MWCubed",
+      "type": "resources",
+      "uuid": "16356573-038c-42d0-9e86-773cc04b33e6",
+      "version": [0, 0, 1]
+    }
+  ]
+}
